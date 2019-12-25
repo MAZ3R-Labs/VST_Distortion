@@ -1,0 +1,41 @@
+﻿  PluginProcessor.cpp
+D:\distortion vst\Source\PluginProcessor.cpp(30,102): warning C4305: '引數': 從 'double' 轉換為 'ValueType'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+          with
+          [
+              ValueType=float
+          ]
+D:\distortion vst\Source\PluginProcessor.cpp(31,105): warning C4305: '引數': 從 'double' 轉換為 'ValueType'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+          with
+          [
+              ValueType=float
+          ]
+D:\distortion vst\Source\PluginProcessor.cpp(32,103): warning C4305: '引數': 從 'double' 轉換為 'ValueType'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+          with
+          [
+              ValueType=float
+          ]
+D:\distortion vst\Source\PluginProcessor.cpp(33,105): warning C4305: '引數': 從 'double' 轉換為 'ValueType'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+          with
+          [
+              ValueType=float
+          ]
+D:\distortion vst\Source\PluginProcessor.cpp(26,1): warning C4996: 'juce::ScopedPointer<juce::AudioProcessorValueTreeState>::~ScopedPointer': 宣告為已被取代
+C:\JUCE\modules\juce_core\memory\juce_ScopedPointer.h(56): message : 請參閱 'juce::ScopedPointer<juce::AudioProcessorValueTreeState>::~ScopedPointer' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(30,1): warning C4996: 'juce::AudioProcessorValueTreeState::createAndAddParameter': 宣告為已被取代
+C:\JUCE\modules\juce_audio_processors\utilities\juce_AudioProcessorValueTreeState.h(260): message : 請參閱 'juce::AudioProcessorValueTreeState::createAndAddParameter' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(31,1): warning C4996: 'juce::AudioProcessorValueTreeState::createAndAddParameter': 宣告為已被取代
+C:\JUCE\modules\juce_audio_processors\utilities\juce_AudioProcessorValueTreeState.h(260): message : 請參閱 'juce::AudioProcessorValueTreeState::createAndAddParameter' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(32,1): warning C4996: 'juce::AudioProcessorValueTreeState::createAndAddParameter': 宣告為已被取代
+C:\JUCE\modules\juce_audio_processors\utilities\juce_AudioProcessorValueTreeState.h(260): message : 請參閱 'juce::AudioProcessorValueTreeState::createAndAddParameter' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(33,1): warning C4996: 'juce::AudioProcessorValueTreeState::createAndAddParameter': 宣告為已被取代
+C:\JUCE\modules\juce_audio_processors\utilities\juce_AudioProcessorValueTreeState.h(260): message : 請參閱 'juce::AudioProcessorValueTreeState::createAndAddParameter' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(43,1): warning C4996: 'juce::ScopedPointer<juce::AudioProcessorValueTreeState>::~ScopedPointer': 宣告為已被取代
+C:\JUCE\modules\juce_core\memory\juce_ScopedPointer.h(56): message : 請參閱 'juce::ScopedPointer<juce::AudioProcessorValueTreeState>::~ScopedPointer' 的宣告
+D:\distortion vst\Source\PluginProcessor.cpp(95,58): warning C4100: 'index': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(99,63): warning C4100: 'index': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(104,79): warning C4100: 'newName': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(104,58): warning C4100: 'index': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(109,73): warning C4100: 'samplesPerBlock': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(109,57): warning C4100: 'sampleRate': 未參考的型式參數
+D:\distortion vst\Source\PluginProcessor.cpp(145,89): warning C4100: 'midiMessages': 未參考的型式參數
+  distortion vst_SharedCode.vcxproj -> D:\distortion vst\Builds\VisualStudio2019\x64\Debug\Shared Code\distortion vst.lib
