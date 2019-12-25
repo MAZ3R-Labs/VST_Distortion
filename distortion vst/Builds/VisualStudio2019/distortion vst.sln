@@ -1,7 +1,17 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2019
 
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distortion vst - Standalone Plugin", "distortion vst_StandalonePlugin.vcxproj", "{32CEA00C-3C21-C0D7-C4C0-2E56AEB88167}"
+	ProjectSection(ProjectDependencies) = postProject
+		{263FB59E-FFED-3F06-A583-03046E0245E5} = {263FB59E-FFED-3F06-A583-03046E0245E5}
+	EndProjectSection
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distortion vst - VST", "distortion vst_VST.vcxproj", "{F24B8A18-E6BB-A017-E852-D66E9C5D2BBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{263FB59E-FFED-3F06-A583-03046E0245E5} = {263FB59E-FFED-3F06-A583-03046E0245E5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "distortion vst - VST3", "distortion vst_VST3.vcxproj", "{74484B17-67A2-46E9-05EE-398862AB2E10}"
 	ProjectSection(ProjectDependencies) = postProject
 		{263FB59E-FFED-3F06-A583-03046E0245E5} = {263FB59E-FFED-3F06-A583-03046E0245E5}
 	EndProjectSection
@@ -18,6 +28,14 @@ Global
 		{F24B8A18-E6BB-A017-E852-D66E9C5D2BBC}.Debug|x64.Build.0 = Debug|x64
 		{F24B8A18-E6BB-A017-E852-D66E9C5D2BBC}.Release|x64.ActiveCfg = Release|x64
 		{F24B8A18-E6BB-A017-E852-D66E9C5D2BBC}.Release|x64.Build.0 = Release|x64
+		{74484B17-67A2-46E9-05EE-398862AB2E10}.Debug|x64.ActiveCfg = Debug|x64
+		{74484B17-67A2-46E9-05EE-398862AB2E10}.Debug|x64.Build.0 = Debug|x64
+		{74484B17-67A2-46E9-05EE-398862AB2E10}.Release|x64.ActiveCfg = Release|x64
+		{74484B17-67A2-46E9-05EE-398862AB2E10}.Release|x64.Build.0 = Release|x64
+		{32CEA00C-3C21-C0D7-C4C0-2E56AEB88167}.Debug|x64.ActiveCfg = Debug|x64
+		{32CEA00C-3C21-C0D7-C4C0-2E56AEB88167}.Debug|x64.Build.0 = Debug|x64
+		{32CEA00C-3C21-C0D7-C4C0-2E56AEB88167}.Release|x64.ActiveCfg = Release|x64
+		{32CEA00C-3C21-C0D7-C4C0-2E56AEB88167}.Release|x64.Build.0 = Release|x64
 		{263FB59E-FFED-3F06-A583-03046E0245E5}.Debug|x64.ActiveCfg = Debug|x64
 		{263FB59E-FFED-3F06-A583-03046E0245E5}.Debug|x64.Build.0 = Debug|x64
 		{263FB59E-FFED-3F06-A583-03046E0245E5}.Release|x64.ActiveCfg = Release|x64

@@ -1,1 +1,5 @@
-﻿  distortion vst_VST.vcxproj -> D:\distortion vst\Builds\VisualStudio2019\x64\Debug\VST\distortion vst.dll
+﻿  include_juce_audio_plugin_client_VST2.cpp
+C:\JUCE\SDK\VST_SDK\VST2_SDK\vstsdk2.4\pluginterfaces\vst2.x\aeffect.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\JUCE\SDK\VST_SDK\VST2_SDK\vstsdk2.4\pluginterfaces\vst2.x\aeffectx.h(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     正在建立程式庫 D:\GitHub\VST_Distortion\distortion vst\Builds\VisualStudio2019\x64\Debug\VST\distortion vst.lib 和物件 D:\GitHub\VST_Distortion\distortion vst\Builds\VisualStudio2019\x64\Debug\VST\distortion vst.exp
+  distortion vst_VST.vcxproj -> D:\GitHub\VST_Distortion\distortion vst\Builds\VisualStudio2019\x64\Debug\VST\distortion vst.dll

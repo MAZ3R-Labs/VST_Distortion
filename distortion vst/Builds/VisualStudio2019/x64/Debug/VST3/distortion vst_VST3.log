@@ -1,0 +1,2 @@
+﻿  include_juce_audio_plugin_client_VST3.cpp
+  distortion vst_VST3.vcxproj -> D:\GitHub\VST_Distortion\distortion vst\Builds\VisualStudio2019\x64\Debug\VST3\distortion vst.vst3
